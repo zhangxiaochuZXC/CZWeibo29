@@ -24,6 +24,11 @@
     NSLog(@"创建了父视图");
 }
 
+- (void)createSubViews
+{
+    NSLog(@"创建了很多子视图");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
