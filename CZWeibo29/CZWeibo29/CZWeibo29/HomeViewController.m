@@ -29,6 +29,11 @@
     NSLog(@"创建了很多子视图");
 }
 
+- (void)bugFix
+{
+    NSLog(@"修复了很多的BUG");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
